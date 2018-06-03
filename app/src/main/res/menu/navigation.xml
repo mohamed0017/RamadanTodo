@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="@string/salah"
+        app:showAsAction="always|withText"/>
+
+    <item
+        android:id="@+id/navigation_dashboard"
+        android:icon="@drawable/ic_dashboard_black_24dp"
+        android:title="@string/azkar"
+        app:showAsAction="always|withText"/>
+
+    <item
+        android:id="@+id/navigation_notifications"
+        android:icon="@drawable/ic_notifications_black_24dp"
+        android:title="@string/quran"
+        app:showAsAction="always|withText"/>
+    <item
+        android:id="@+id/progress_tab"
+        android:icon="@drawable/ic_dashboard_black_24dp"
+        android:title="@string/progress"
+        app:showAsAction="always|withText"/>
+
+
+</menu>
